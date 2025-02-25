@@ -1,10 +1,7 @@
-import './assets/main.css';
-
 import { createApp } from 'vue';
 import App from './App.vue';
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import { aliases, md } from 'vuetify/iconsets/md';
-// import { mdi } from 'vuetify/iconsets/mdi-svg';
 
 // Vuetify
 import 'vuetify/styles';
@@ -30,13 +27,9 @@ const vuetify = createVuetify({
     themes: {
       light: {
         colors: {
-          // primary: '#9C27B0', // Nice purple color
-          // secondary: '#424242',
-          accent: '#82B1FF',
-          error: '#FF5252',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FFC107',
+          primary: '#00796B', // Nice teal color
+          secondary: '#004D40',
+          accent: '#B2DFDB',
         },
       },
     },
