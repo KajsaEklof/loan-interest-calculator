@@ -159,9 +159,9 @@ function calculateLoan(v: CalculationDetails) {
     output.push({
       accrualDate,
       daysElapsed,
-      interestWithoutMargin: `${c}${Math.round((totalInterestForLoanWithoutMargin / days) * 100) / 100}`,
-      interestAccrued: `${c}${Math.round((totalInterestForLoan / days) * 100) / 100}`,
-      totalInterest: `${c}${Math.round(totalInterest*100) / 100}`,
+      interestWithoutMargin: `${c}${(totalInterestForLoanWithoutMargin / days).toFixed(2)}`,
+      interestAccrued: `${c}${(totalInterestForLoan / days).toFixed(2)}`,
+      totalInterest: `${c}${totalInterest.toFixed(2)}`,
     });
   }
 
