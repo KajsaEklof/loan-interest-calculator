@@ -1,10 +1,11 @@
 # Loan Interest Calculator
 
-A simple loan calculator frontend application built with Vue3, Vite, TypeScript and Vuetify UI library. The UI allows the user to enter details for the loan and calculate the loan interest using the simple interest formula.
+A loan interest calculator that allows the user to enter amount, currency, base interest rate, margin and the term (loan period) for the loan and calculate the loan interest using simple interest.
 
 ## 💁‍♀️ Simple Interest 
 
 * Simple interest is calculated by multiplying loan principal by the interest rate and then by the term of a loan
+* Simple interest involves no calculation of compound interest
 * Simple Interest formula = P × r × n
   * P = Principal
   * r = Interest rate
@@ -18,5 +19,12 @@ To run the application start by setting up the project then compile for developm
 pnpm install
 pnpm dev
 ```
+
+## 👩‍💻 Frontend stack:
+
+* Vue.js
+* TypeScript
+* Vite
+* Vuetify UI Library
 
 
