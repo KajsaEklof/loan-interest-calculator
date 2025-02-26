@@ -14,30 +14,9 @@ A simple loan calculator frontend application built with Vue3, Vite, TypeScript 
 
 To run the application start by setting up the project then compile for development.
 
-### Project Setup
-
 ```sh
 pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 pnpm dev
 ```
 
-### Customize configuration
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
